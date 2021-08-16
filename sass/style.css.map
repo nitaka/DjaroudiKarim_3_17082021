@@ -1,0 +1,22 @@
+{
+    "version": 3,
+    "mappings": "AKEA,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,oBAAoB;CACpC;;ALiBD,AAAA,oBAAoB,CAAA;EAChB,MAAM,EAAE,GAAG,CAAC,KAAK,CAAC,KAAY;EAC9B,aAAa,EAAE,IAAI;EACnB,KAAK,EAAE,KAAK;CACf;;AAED,AAAA,gBAAgB,CAAA;EACZ,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EAEb,aAAa,EAAE,aAAa;CAC/B",
+    "sources": [
+        "style.scss",
+        "utils/_variables.scss",
+        "utils/_functions.scss",
+        "utils/_mixins.scss",
+        "base/_base.scss",
+        "base/_typography.scss",
+        "components/_buttons.scss",
+        "layout/_header.scss",
+        "layout/_nav.scss",
+        "layout/_container.scss",
+        "layout/_form.scss",
+        "pages/_work.scss",
+        "pages/_about.scss",
+        "pages/_project.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}

@@ -1,0 +1,33 @@
+@import "./utils/variables";
+@import "./utils/functions";
+@import "./utils/mixins";
+
+@import "./base/base";
+@import "./base/typography";
+
+@import "./components/buttons";
+
+@import "./layout/header";
+@import "./layout/nav";
+@import "./layout/container";
+@import "./layout/form";
+
+
+@import "./pages/work";
+@import "./pages/about";
+@import "./pages/project";
+
+
+
+.restaurant__element{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    width: 300px;
+}
+
+.restaurant--img{
+    width: 300px;
+    height: 250px;
+
+    border-radius: 0 20px 20px 0;
+}

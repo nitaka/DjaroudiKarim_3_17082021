@@ -1,0 +1,16 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.restaurant__element {
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 300px;
+}
+
+.restaurant--img {
+  width: 300px;
+  height: 250px;
+  border-radius: 0 20px 20px 0;
+}
+/*# sourceMappingURL=style.css.map */
