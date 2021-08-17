@@ -5,31 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
     <link rel="stylesheet" href="sass/style.css">
     <title>OhMyFood</title>
 </head>
 <body>
     <header class="header">
-        <img src="images/logo/ohmyfood.png" alt="Logo">
+        <img class="header--logo" src="images/logo/ohmyfood.png" alt="Logo">
     </header>
 
     <div class="search">
-        <i class="fas fa-map-marker-alt"></i><input type="search" placeholder="Paris, Bellville" />
+        <p><i class="fas fa-map-marker-alt"></i> <b>Paris, Belleville</b></p>
     </div>
 
     <div class="text--main">
-        <h2>Réservez le menu qui vous convient</h2>
+        <h2>Réservez le menu qui <br>vous convient</h2>
         <p>Découvrez des restaurants d'exeption, séléctionnés par nos soins.</p>
-        <button class="btn--main">Explorer nos restaurants</button>
+        <button class="btn"><a href="#restaurant">Explorer nos restaurants</a></button>
     </div>
-    <section class="function">
-        <span class="function--nb">1</span><button><i class="fas fa-mobile-alt"></i>Choisissez un restaurant</button>
-        <span class="function--nb">2</span><button><i class="fas fa-ellipsis-v"></i><i class="fas fa-bars"></i>Composez votre menu</button>
-        <span class="function--nb">3</span><button><i class="fas fa-store"></i>Dégustez au restaurant</button>
+    <section class="info">
+        <h2>Fonctionnement</h2>
+        <span class="info--nb">1</span><button class="btn-info"><i class="fas fa-mobile-alt"></i>Choisissez un restaurant</button>
+        <span class="info--nb">2</span><button class="btn-info"><i class="fas fa-ellipsis-v"></i><i class="fas fa-bars"></i>Composez votre menu</button>
+        <span class="info--nb">3</span><button class="btn-info"><i class="fas fa-store"></i>Dégustez au restaurant</button>
     </section>
-    <section class="restaurant">
-        <h1>Restaurant</h1>
+    <section id="restaurant" class="restaurant">
+        <h2>Restaurants</h2>
         <div class="restaurant__fig">
             <figure class="restaurant__element">
               <a href="menu-palette.html"><img class="restaurant--img" alt="restaurant" src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"/></a>

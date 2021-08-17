@@ -18,7 +18,28 @@
 @import "./pages/project";
 
 
+@media only screen and (max-width :375px){
+    .info{
+        display: flex;
+        flex-direction: column;
+        &--nb{
+            width: $size-round;
+            height: $size-round;
+            background-color: $colour-primary;
+            color: white;
+            font-weight: 900;
+            font-size: 0.8em;
+            text-align: center;
+            line-height: 20px;
+            border-radius: 20px;
+            padding: 2px;
+            position: relative;
+            top: 50px;
+            left: 25px;
+        }
+    }
 
+}
 .restaurant__element{
     border: 1px solid rgb(0, 0, 0);
     border-radius: 20px;

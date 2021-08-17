@@ -1,0 +1,42 @@
+
+@media only screen and (max-width :375px){
+
+    .header{
+        height: 60px;
+        text-align: center;
+        box-shadow: 0 0 0.5rem rgb(156, 156, 156);
+        &--logo{
+            height: 30px;
+            padding-top: 15px;
+        }
+    }
+    
+    .search{
+        background-color: rgb(238, 238, 238);
+        height: 50px;
+        width: 100%;
+        text-align: center;
+        line-height: 50px;
+        position: relative;
+        bottom: 13px;
+        .fa-map-marker-alt{
+            position: relative;
+            right: 10px;
+            color: rgb(56, 56, 56);
+        }
+    }
+
+    .text--main{
+        font-size: 1.2em;
+        text-align: center;
+        @include background-grey;
+        padding-top: 25px;
+        padding-bottom: 50px;
+        position: relative;
+        bottom: 13px;
+
+    }
+    
+  
+}
+

@@ -1,5 +1,117 @@
+h2 {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+section h2 {
+  margin-left: 20px;
+}
+
+a {
+  list-style-type: none;
+  color: white;
+  text-decoration: none;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Shrikhand', sans-serif;
+}
+
+.btn {
+  background: -webkit-gradient(linear, left bottom, left top, from(#9356DC), to(#FF79DA));
+  background: linear-gradient(0deg, #9356DC, #FF79DA);
+  color: white;
+  font-weight: bold;
+  border-radius: 50px;
+  border: none;
+  height: 50px;
+  width: 200px;
+  -webkit-box-shadow: 0px 5px 7px #e6e4e4;
+          box-shadow: 0px 5px 7px #e6e4e4;
+}
+
+.btn-info {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 10px 10px 10px;
+  height: 65px;
+  font-weight: bold;
+  font-size: 0.9em;
+  border: none;
+  background-color: #fafafa;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 5px 7px #e6e4e4;
+          box-shadow: 0px 5px 7px #e6e4e4;
+}
+
+@media only screen and (max-width: 375px) {
+  .header {
+    height: 60px;
+    text-align: center;
+    -webkit-box-shadow: 0 0 0.5rem #9c9c9c;
+            box-shadow: 0 0 0.5rem #9c9c9c;
+  }
+  .header--logo {
+    height: 30px;
+    padding-top: 15px;
+  }
+  .search {
+    background-color: #eeeeee;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+    bottom: 13px;
+  }
+  .search .fa-map-marker-alt {
+    position: relative;
+    right: 10px;
+    color: #383838;
+  }
+  .text--main {
+    font-size: 1.2em;
+    text-align: center;
+    background-color: #fafafa;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    position: relative;
+    bottom: 13px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .info--nb {
+    width: 18px;
+    height: 18px;
+    background-color: #9356DC;
+    color: white;
+    font-weight: 900;
+    font-size: 0.8em;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 20px;
+    padding: 2px;
+    position: relative;
+    top: 50px;
+    left: 25px;
+  }
 }
 
 .restaurant__element {
