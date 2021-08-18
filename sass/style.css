@@ -36,12 +36,13 @@ h1 {
           box-shadow: 0px 5px 7px #e6e4e4;
 }
 
-.btn-info {
+.btn-function {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: -20px;
   padding: 15px 10px 10px 10px;
-  height: 65px;
+  height: 70px;
   font-weight: bold;
   font-size: 0.9em;
   border: none;
@@ -62,7 +63,47 @@ h1 {
     height: 30px;
     padding-top: 15px;
   }
-  .search {
+  .fa-arrow-left {
+    font-size: 1.5em;
+    color: black;
+    position: relative;
+    right: 65px;
+    bottom: 5px;
+  }
+}
+
+.footer {
+  background-color: #474747;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.footer--title {
+  margin-left: 23px;
+  font-size: 1.1em;
+  color: white;
+}
+
+.footer__nav ul {
+  list-style-type: none;
+  line-height: 25px;
+  font-weight: bold;
+  font-size: 0.9em;
+  margin-left: -15px;
+}
+
+.fa-utensils {
+  margin-right: 10px;
+}
+
+.fa-hands-helping {
+  margin-right: 4px;
+}
+
+@media only screen and (max-width: 375px) {
+  /* section info index */
+  .info {
     background-color: #eeeeee;
     height: 50px;
     width: 100%;
@@ -71,7 +112,7 @@ h1 {
     position: relative;
     bottom: 13px;
   }
-  .search .fa-map-marker-alt {
+  .info .fa-map-marker-alt {
     position: relative;
     right: 10px;
     color: #383838;
@@ -85,10 +126,12 @@ h1 {
     position: relative;
     bottom: 13px;
   }
-}
-
-@media only screen and (max-width: 375px) {
-  .info {
+  /* section info index fin */
+  /* section function index */
+  .function h2 {
+    margin-bottom: 0px;
+  }
+  .function {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -96,33 +139,86 @@ h1 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 40px;
   }
-  .info--nb {
-    width: 18px;
-    height: 18px;
+  .function--nb {
+    width: 20px;
+    height: 20px;
     background-color: #9356DC;
     color: white;
-    font-weight: 900;
+    font-weight: bold;
     font-size: 0.8em;
     text-align: center;
-    line-height: 20px;
+    line-height: 23px;
     border-radius: 20px;
     padding: 2px;
     position: relative;
-    top: 50px;
+    top: 30px;
     left: 25px;
   }
-}
-
-.restaurant__element {
-  border: 1px solid black;
-  border-radius: 20px;
-  width: 300px;
-}
-
-.restaurant--img {
-  width: 300px;
-  height: 250px;
-  border-radius: 0 20px 20px 0;
+  .fa-mobile-alt {
+    color: gray;
+    width: 10px;
+    font-size: 1.4em;
+    position: relative;
+    top: 55px;
+    left: 70px;
+  }
+  .fa-store, .fa-list-ul {
+    color: gray;
+    width: 10px;
+    font-size: 1.1em;
+    position: relative;
+    top: 50px;
+    left: 68px;
+  }
+  /* section function index fin*/
+  /* section restaurant index */
+  .restaurant {
+    padding-top: 30px;
+    padding-bottom: 45px;
+    background-color: #eeeeee;
+    width: 100%;
+  }
+  .restaurant__element {
+    -webkit-box-shadow: 0px 5px 7px #e6e4e4;
+            box-shadow: 0px 5px 7px #e6e4e4;
+    background-color: #ffffff;
+    border-radius: 20px;
+    height: 220px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .restaurant__element--txt {
+    font-size: 1em;
+    line-height: 8px;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+  .new {
+    color: green;
+    background-color: chartreuse;
+  }
+  .restaurant--img {
+    width: 100%;
+    height: 70%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 20px 20px 0 0;
+  }
+  .fa-heart {
+    font-size: 1.2em;
+    position: relative;
+    bottom: 45px;
+    left: 255px;
+  }
+  .fa-heart:hover {
+    background: -webkit-gradient(linear, left bottom, left top, from(#FF79DA), to(#9356DC));
+    background: linear-gradient(0deg, #FF79DA, #9356DC);
+  }
+  /* section restaurant index fin*/
 }
 /*# sourceMappingURL=style.css.map */

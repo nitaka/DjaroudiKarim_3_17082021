@@ -9,3 +9,11 @@
 @mixin  background-grey{
     background-color: #fafafa;
 }
+
+@mixin gradient {
+    background: linear-gradient(0deg, $colour-primary, $colour-secondary);
+}
+
+@mixin gradient-heart {
+    background: linear-gradient(0deg, $colour-secondary,$colour-primary);
+}

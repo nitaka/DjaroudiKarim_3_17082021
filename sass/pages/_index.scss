@@ -1,0 +1,134 @@
+
+@media only screen and (max-width :375px){
+
+     /* section info index */
+
+    .info{
+        background-color: $background-intro;
+        height: 50px;
+        width: 100%;
+        text-align: center;
+        line-height: 50px;
+        position: relative;
+        bottom: 13px;
+        .fa-map-marker-alt{
+            position: relative;
+            right: 10px;
+            color: rgb(56, 56, 56);
+        }
+    }
+
+    .text--main{
+        font-size: 1.2em;
+        text-align: center;
+        @include background-grey;
+        padding-top: 25px;
+        padding-bottom: 50px;
+        position: relative;
+        bottom: 13px;
+
+    }
+
+     /* section info index fin */
+
+    /* section function index */
+    .function h2{
+        margin-bottom: 0px;
+    }
+
+    .function{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        &--nb{
+            width: $size-round;
+            height: $size-round;
+            background-color: $colour-primary;
+            color: white;
+            font-weight: bold;
+            font-size: 0.8em;
+            text-align: center;
+            line-height: 23px;
+            border-radius: 20px;
+            padding: 2px;
+            position: relative;
+            top: 30px;
+            left: 25px;
+        }
+       
+    }
+
+    .fa-mobile-alt{
+        color: gray;
+        width: 10px;
+        font-size: 1.4em;
+        position: relative;
+        top: 55px;
+        left: 70px;
+    }
+
+    .fa-store,.fa-list-ul{
+        color: gray;
+        width: 10px;
+        font-size: 1.1em;
+        position: relative;
+        top: 50px;
+        left: 68px;
+        
+    }
+   
+
+    /* section function index fin*/
+    /* section restaurant index */
+
+    .restaurant{
+        padding-top: 30px;
+        padding-bottom: 45px;
+        background-color: $background-intro;
+        width: 100%;
+        &__element{
+            @include shadow;
+            background-color: #ffffff;
+            border-radius: 20px;
+            height: 220px;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            &--txt{
+                font-size: 1em;
+                line-height: 8px;
+                margin-top: 15px;
+                margin-left: 10px;
+            }
+        }
+    }
+
+    .new{
+        color: green;
+        background-color: chartreuse;
+        
+    }
+    
+    .restaurant--img{
+        width: 100%;
+        height: 70%;
+        object-fit: cover;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .fa-heart{
+        font-size: 1.2em;
+        position: relative;
+        bottom: 45px;
+        left: 255px;
+        &:hover{
+            @include gradient-heart;
+        }
+    }
+    
+    /* section restaurant index fin*/
+    
+
+}

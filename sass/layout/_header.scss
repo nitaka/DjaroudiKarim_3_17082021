@@ -10,33 +10,15 @@
             padding-top: 15px;
         }
     }
-    
-    .search{
-        background-color: rgb(238, 238, 238);
-        height: 50px;
-        width: 100%;
-        text-align: center;
-        line-height: 50px;
+
+    .fa-arrow-left{
+        font-size: 1.5em;
+        color: black;
         position: relative;
-        bottom: 13px;
-        .fa-map-marker-alt{
-            position: relative;
-            right: 10px;
-            color: rgb(56, 56, 56);
-        }
+        right: 65px;
+        bottom: 5px;
     }
 
-    .text--main{
-        font-size: 1.2em;
-        text-align: center;
-        @include background-grey;
-        padding-top: 25px;
-        padding-bottom: 50px;
-        position: relative;
-        bottom: 13px;
-
-    }
     
-  
 }
 
