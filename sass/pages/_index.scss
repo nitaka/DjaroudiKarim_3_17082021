@@ -48,7 +48,7 @@
             background-color: $colour-primary;
             color: white;
             font-weight: bold;
-            font-size: 0.8em;
+            font-size: 0.9em;
             text-align: center;
             line-height: 23px;
             border-radius: 20px;
@@ -102,20 +102,26 @@
                 margin-top: 15px;
                 margin-left: 10px;
             }
+            &--img{
+                width: 100%;
+                height: 70%;
+                object-fit: cover;
+                border-radius: 20px 20px 0 0;
+            }
         }
     }
 
     .new{
-        color: green;
-        background-color: chartreuse;
-        
-    }
-    
-    .restaurant--img{
-        width: 100%;
-        height: 70%;
-        object-fit: cover;
-        border-radius: 20px 20px 0 0;
+        display: inline;
+        color: #1b6150;
+        background-color: #99e2d0;
+        font-weight: 900;
+        font-size: 0.8em;
+        padding: 5px 10px 5px 10px;
+        border-radius: 2px;
+        position: relative;
+        left: 200px;
+        bottom: 200px;
     }
 
     .fa-heart{

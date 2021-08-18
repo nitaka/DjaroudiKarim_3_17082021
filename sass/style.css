@@ -50,6 +50,16 @@ h1 {
   border-radius: 20px;
   -webkit-box-shadow: 0px 5px 7px #e6e4e4;
           box-shadow: 0px 5px 7px #e6e4e4;
+  -webkit-transition: background-color 250ms;
+  transition: background-color 250ms;
+}
+
+.btn-function:hover {
+  background-color: rgba(245, 237, 255, 0.8);
+}
+
+.mobile-alt, .fa-list-ul, .fa-store:hover {
+  color: #9356DC;
 }
 
 @media only screen and (max-width: 375px) {
@@ -149,7 +159,7 @@ h1 {
     background-color: #9356DC;
     color: white;
     font-weight: bold;
-    font-size: 0.8em;
+    font-size: 0.9em;
     text-align: center;
     line-height: 23px;
     border-radius: 20px;
@@ -198,16 +208,24 @@ h1 {
     margin-top: 15px;
     margin-left: 10px;
   }
-  .new {
-    color: green;
-    background-color: chartreuse;
-  }
-  .restaurant--img {
+  .restaurant__element--img {
     width: 100%;
     height: 70%;
     -o-object-fit: cover;
        object-fit: cover;
     border-radius: 20px 20px 0 0;
+  }
+  .new {
+    display: inline;
+    color: #1b6150;
+    background-color: #99e2d0;
+    font-weight: 900;
+    font-size: 0.8em;
+    padding: 5px 10px 5px 10px;
+    border-radius: 2px;
+    position: relative;
+    left: 200px;
+    bottom: 200px;
   }
   .fa-heart {
     font-size: 1.2em;
@@ -216,8 +234,7 @@ h1 {
     left: 255px;
   }
   .fa-heart:hover {
-    background: -webkit-gradient(linear, left bottom, left top, from(#FF79DA), to(#9356DC));
-    background: linear-gradient(0deg, #FF79DA, #9356DC);
+    background-color: linear-gradient(0deg, #FF79DA, #9356DC);
   }
   /* section restaurant index fin*/
 }

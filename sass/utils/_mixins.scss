@@ -15,5 +15,5 @@
 }
 
 @mixin gradient-heart {
-    background: linear-gradient(0deg, $colour-secondary,$colour-primary);
+    background-color: linear-gradient(0deg, $colour-secondary,$colour-primary);
 }
