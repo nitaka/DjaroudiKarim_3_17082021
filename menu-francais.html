@@ -1,68 +1,90 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,900i" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
-    <link rel="stylesheet" href="sass/style.css">
-    <title>OhMyFood</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" type="text/css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+        <link rel="stylesheet" type="text/css" href="sass/style.css">
+        <title>OhMyFood</title>
+    </head>
 <body>
     <header class="header">
         <a href="index.html"><i class="fas fa-arrow-left"></i></a>
         <img class="header--logo" src="images/logo/ohmyfood.png" alt="Logo">
     </header>
+    <div class="font">
+        <img class="font--img" src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="image restaurant"/>
+    </div>
+
     <section class="menu">
-        <h1>À la française</h1>
+        <div class="menu--title">
+            <h1>À la française</h1><i class="far fa-heart"></i>
+        </div>
         <article class="menu__choice">
             <h2>ENTRÈES</h2>
+            <div class="line"></div>
             <div class="menu__choice--element">
-                <p><b>Tartare de poulpe acidulé</b></p>
-                <p>Aux zestes d'orange <b>25€</b></p>
+                <h3>Tartare de poulpe acidulé</h3>
+                <p>Aux zestes d'orange</p>
+                <div class="menu__choice--price"><b>25€</b></div>
             </div>
             <div class="menu__choice--element">
-                <p><b>Velouté de légumes d'antan</b></p>
-                <p>Carotte, panais, topinambour <b>35€</b></p>
+                <h3>Velouté de légumes d'antan</h3>
+                <p>Carotte, panais, topinambour</p>
+                <div class="menu__choice--price"><b>35€</b></div>
             </div>
             <div class="menu__choice--element">
-                <p><b>Soupe à l'oignon</b></p>
-                <p>Revisitée <b>20€</b></p>
+                <h3>Soupe à l'oignon</h3>
+                <p>Revisitée</p>
+                <div class="menu__choice--price"><b>20€</b></div>
             </div>
         </article>
         <article class="menu__choice">
             <h2>PLATS</h2>
+            <div class="line"></div>
             <div class="menu__choice--element">
-                <p><b>Coquilles Saint-Jacques</b></p>
-                <p>Accompagnées d'une purée de panais <b>40€</b></p>
+                <h3>Coquilles Saint-Jacques</h3>
+                <p>Accompagnées d'une purée de panais</p>
+                <div class="menu__choice--price"><b>40€</b></div>
             </div>
             <div class="menu__choice--element">
-                <p><b>Magret de canard</b></p>
-                <p>Et parmentier de pommes de terre <b>35€</b></p>
+                <h3>Magret de canard</h3>
+                <p>Et parmentier de pommes de terre</p>
+                <div class="menu__choice--price"><b>35€</b></div>
             </div>
             <div class="menu__choice--element">
-                <p><b>Pigeonneau d’Ille-et-Vilaine</b></p>
-                <p>Sur son lit de gnocchis aux légumes <b>44€</b></p>
+                <h3>Pigeonneau d’Ille-et-Vilaine</h3>
+                <p>Sur son lit de gnocchis aux légumes</p>
+                <div class="menu__choice--price"><b>44€</b></div>
             </div>
         </article>
         <article class="menu__choice">
             <h2>DESSERTS</h2>
+            <div class="line"></div>
             <div class="menu__choice--element">
-                <p><b>Pétales de violettes glacés</b></p>
-                <p>Et purée de noisettes <b>18€</b></p>
+                <h3>Pétales de violettes glacés</h3>
+                <p>Et purée de noisettes</p>
+                <div class="menu__choice--price"><b>18€</b></div>
             </div>
             <div class="menu__choice--element">
-                <p><b>Fondant au chocolat</b></p>
-                <p>Revisité <b>22€</b></p>
+                <h3>Fondant au chocolat</h3>
+                <p>Revisité</p>
+                <div class="menu__choice--price"><b>22€</b></div>
             </div>
             <div class="menu__choice--element">
-                <p><b>Millefeuille croustillant</b></p>
-                <p>Myrtilles et pâte d’amande <b>23€</b></p>
+                <h3>Millefeuille croustillant</h3>
+                <p>Myrtilles et pâte d’amande</p>
+                <div class="menu__choice--price"><b>23€</b></div>
             </div>
         </article>
-        <button class="btn">Commander</button>
+        <div class="menu__choice--btn">
+            <button class="btn">Commander</button>
+        </div>
     </section>
+
     <footer class="footer">
         <h1 class="footer--title">ohmyfood</h1>
         <nav class="footer__nav">
@@ -74,5 +96,6 @@
             </ul>
         </nav>
     </footer>
+
 </body>
 </html>

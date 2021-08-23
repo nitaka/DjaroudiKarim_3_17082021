@@ -21,6 +21,11 @@ body {
 
 h1 {
   font-family: 'Shrikhand', sans-serif;
+  font-size: 1.6em;
+}
+
+.menu__choice--btn .btn {
+  font-size: 1.1em;
 }
 
 .btn {
@@ -34,6 +39,14 @@ h1 {
   width: 200px;
   -webkit-box-shadow: 0px 5px 7px #e6e4e4;
           box-shadow: 0px 5px 7px #e6e4e4;
+}
+
+.btn:hover {
+  -webkit-transition: 200ms ease-in-out;
+  transition: 200ms ease-in-out;
+  opacity: 0.7;
+  -webkit-box-shadow: 2px 2px 2px black;
+          box-shadow: 2px 2px 2px black;
 }
 
 .btn-function {
@@ -58,7 +71,7 @@ h1 {
   background-color: rgba(245, 237, 255, 0.8);
 }
 
-.mobile-alt, .fa-list-ul, .fa-store:hover {
+.btn-function:hover + i {
   color: #9356DC;
 }
 
@@ -111,6 +124,88 @@ h1 {
   margin-right: 4px;
 }
 
+/* Img font top page */
+.font--img {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* Img font top page fin */
+/* line title menu */
+.line {
+  background-color: #99E2D0;
+  border-radius: 10px;
+  width: 45px;
+  height: 4px;
+  margin-left: 20px;
+  position: relative;
+  bottom: 13px;
+}
+
+/* line title menu fin */
+/* Menu */
+.menu {
+  background-color: #eeeeee;
+  padding-bottom: 60px;
+  margin-bottom: -50px;
+  border-radius: 50px 50px 0 0;
+  position: relative;
+  bottom: 50px;
+}
+
+.menu--title {
+  margin-left: 20px;
+  margin-bottom: -35px;
+  padding-top: 15px;
+  font-size: 1.1em;
+}
+
+.menu__choice--element {
+  width: 85%;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0px 5px 7px #e6e4e4;
+          box-shadow: 0px 5px 7px #e6e4e4;
+  background-color: white;
+  border-radius: 15px;
+  padding: 3px 10px 10px 12px;
+  line-height: 0px;
+  font-size: 0.9em;
+}
+
+.menu__choice--price {
+  display: inline-block;
+  position: relative;
+  left: 280px;
+  bottom: 25px;
+}
+
+.menu__choice--btn {
+  text-align: center;
+  margin-top: 45px;
+}
+
+.menu--title .fa-heart {
+  font-size: 1.6em;
+  position: relative;
+  bottom: 61px;
+  left: 290px;
+}
+
+.menu__choice--element p {
+  max-width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Menu fin */
 @media only screen and (max-width: 375px) {
   /* section info index */
   .info {
@@ -173,7 +268,7 @@ h1 {
     width: 10px;
     font-size: 1.4em;
     position: relative;
-    top: 55px;
+    bottom: 48px;
     left: 70px;
   }
   .fa-store, .fa-list-ul {
@@ -181,7 +276,7 @@ h1 {
     width: 10px;
     font-size: 1.1em;
     position: relative;
-    top: 50px;
+    bottom: 43px;
     left: 68px;
   }
   /* section function index fin*/

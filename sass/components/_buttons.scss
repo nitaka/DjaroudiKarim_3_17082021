@@ -7,7 +7,13 @@
     height: 50px;
     width: 200px;
     @include shadow;
+    &:hover {
+        transition: 200ms ease-in-out;
+        opacity: 0.7;
+        box-shadow: 2px 2px 2px black;
+    }
 }
+
 
 .btn-function{
     width: 80%;
@@ -25,9 +31,11 @@
     transition: background-color 250ms;
     &:hover{
         background-color: rgba(245, 237, 255, 0.8);
-    }    
+    }
+    &:hover + i{
+        color: $colour-primary;
+    }
 }
 
-.mobile-alt,.fa-list-ul,.fa-store:hover{
-    color: $colour-primary;
-}
+
+
