@@ -12,7 +12,6 @@
 /* Img font top page fin */
 
 /* line title menu */
-
 .line{
     background-color: $colour-tertiaire;
     border-radius: 10px;
@@ -22,11 +21,9 @@
     position: relative;
     bottom: 13px;
 }
-
 /* line title menu fin */
 
 /* Menu */
-
 .menu{
     background-color: $background-intro;
     padding-bottom: 60px;
@@ -56,11 +53,9 @@
     bottom: 61px;
     left: 290px;
 }
-
 /* Menu fin */
 
 /* Menu element */
-
 .menu__choice{
     &--element {
         @include shadow;
@@ -135,10 +130,7 @@
         transition-duration: 0.5s;
     }
 }
-
 /* Menu element fin */
-
-
 }
 
 @media only screen and (min-width :375px){

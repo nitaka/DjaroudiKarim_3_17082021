@@ -18,29 +18,8 @@
         right: 65px;
         bottom: 5px;
     }
-
-    
 }
 
 @media only screen and (min-width :375px){
 
-    .header{
-        height: 60px;
-        text-align: center;
-        box-shadow: 0 0 0.5rem rgb(156, 156, 156);
-        &--logo{
-            height: 60px;
-            padding-top: 10px;
-        }
-    }
-
-    .fa-arrow-left{
-        font-size: 1.5em;
-        color: black;
-        position: relative;
-        right: 65px;
-        bottom: 5px;
-    }
-
-    
 }
