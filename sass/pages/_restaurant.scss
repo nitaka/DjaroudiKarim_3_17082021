@@ -1,3 +1,5 @@
+@media only screen and (max-width :375px){
+
 /* Img font top page */
 .font{
     &--img{
@@ -32,56 +34,113 @@
     border-radius: 50px 50px 0 0 ;
     position: relative;
     bottom: 50px;
-    &--title{
+    &__title{
         margin-left: 20px;
         margin-bottom: -35px;
         padding-top: 15px;
         font-size: 1.1em;
     }
-    &__choice{
-        &--element{
-            width: 85%;
-            height: 60px;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: 20px;
-            @include shadow;
-            background-color: white;
-            border-radius: 15px;
-            padding: 3px 10px 10px 12px ;
-            line-height: 0px;
-            font-size: 0.9em;
-
-        }
-        &--price{
-            display: inline-block;
-            position: relative;
-            left: 280px;
-            bottom: 25px;
-        }
+    &__choice{ 
+        margin-bottom: 50px;   
         &--btn {
             text-align: center;
             margin-top: 45px;
         }
-
     }
     
 }
 
-.menu--title .fa-heart{
+.menu__title .fa-heart{
     font-size: 1.6em;
     position: relative;
     bottom: 61px;
     left: 290px;
 }
 
-.menu__choice--element p{
-    max-width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+/* Menu fin */
+
+/* Menu element */
+
+.menu__choice{
+    &--element {
+        @include shadow;
+        background-color: white;
+        border-radius: 1rem;
+        display: flex;
+        overflow: hidden;
+        max-width: 100%;
+        width: 90%;
+        height: 75px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        &:hover .menu__choice--icone {
+            margin-right: 0;
+            transition-duration: 0.5s;
+            transition-timing-function: ease;
+        }
+        &:hover i {
+            transform: rotate(360deg);
+            transition-duration: 0.5s;
+        }
+    }
+    &--description{
+        width: 100%;
+        display: flex;
+        max-width: 100%;
+        overflow: hidden;
+    }
+    &--text {
+        width: 100%;
+        margin-left: 1rem;
+        max-width: 100%;
+        overflow: hidden;
+        position: relative;
+        bottom: 7px;
+    }
+    &--text h3{
+        margin-bottom: -5px;
+    }
+    &--text p{
+        font-size: 0.9em;
+    }
+    &--text > *{
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-width: 100%;
+    }
+    &--price {
+        display: flex;
+        align-items: flex-end;
+        margin-bottom: 1rem;
+        margin-right: 1rem;
+      max-width: 100%;
+    }
+    &--icone {
+        width: 5em;
+        background: #99e2d0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: -7rem;
+        transition-duration: 0.5s;
+        transition-timing-function: ease;
+    }
+    &--icone > i {
+        color: #99e2d0;
+        padding: 0.2em;
+        border-radius: 50%;
+        background: white;
+        transition-duration: 0.5s;
+    }
 }
 
-/* Menu fin */
+/* Menu element fin */
+
+
+}
+
+@media only screen and (min-width :375px){
+    
+}

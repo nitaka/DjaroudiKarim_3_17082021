@@ -53,20 +53,20 @@ Bouchée de homard croustillant
 Et sa farandole de petits légumes
 35€
 
-Velouté de cèpes 
+Velouté de cèpes
 Aux truffes
 20€
         
 Plats
-Poulet rôti aux herbes de Provence 
+Poulet rôti aux herbes de Provence
 Et sa crème de truffe
 40€
 
-Langouste rôtie 
+Langouste rôtie
 Et ses légumes de saison
 35€
 
-Côte de boeuf Angus 
+Côte de boeuf Angus
 Et sa purée de panais
 44€
 
@@ -92,7 +92,7 @@ Ravioles de foie gras
 Accompagnés de leur crème à la truffe
 25€
 
-Caviar osciètre 
+Caviar osciètre
 Sur blini à la farine de blé noir
 35€
 
@@ -113,7 +113,7 @@ Langoustine poêlée
 Purée de patate douce
 35€
 
-Mijoté de queue de boeuf 
+Mijoté de queue de boeuf
 Et riz sauvage aux zestes de citron
 44€
 
@@ -126,7 +126,7 @@ Baba au rhum revisité
 Avec son coulis de citron
 22€
 
-Tarte au citron meringuée 
+Tarte au citron meringuée
 Déstructurée
 23€
 
