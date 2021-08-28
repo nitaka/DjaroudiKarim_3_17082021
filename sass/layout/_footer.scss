@@ -1,25 +1,115 @@
-.footer{
-    background-color: rgb(71, 71, 71);
-    color: white;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    &--title{
-        margin-left: 23px;
-        font-size: 1.1em;
+@media only screen and (min-width :375px){
+    .footer{
+        background-color: rgb(71, 71, 71);
         color: white;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        &--title{
+            margin-left: 23px;
+            font-size: 1.1em;
+            color: white;
+        }
+        &__nav ul{
+            list-style-type: none;
+            line-height: 25px;
+            font-weight: bold;
+            font-size: 0.9em;
+            margin-left: -15px;
+        }
     }
-    &__nav ul{
-        list-style-type: none;
-        line-height: 25px;
-        font-weight: bold;
-        font-size: 0.9em;
-        margin-left: -15px;
+    
+    .fa-utensils{
+        margin-right: 10px;
+    }
+    .fa-hands-helping{
+        margin-right: 4px;
     }
 }
 
-.fa-utensils{
-    margin-right: 10px;
+@media only screen and (min-width :415px){
+    .footer{
+        background-color: rgb(71, 71, 71);
+        color: white;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        &--title{
+            margin-left: 23px;
+            font-size: 1.1em;
+            color: white;
+        }
+        &__nav ul{
+            list-style-type: none;
+            line-height: 25px;
+            font-weight: bold;
+            font-size: 0.9em;
+            margin-left: -15px;
+        }
+    }
+    
+    .fa-utensils{
+        margin-right: 10px;
+    }
+    .fa-hands-helping{
+        margin-right: 4px;
+    }
 }
-.fa-hands-helping{
-    margin-right: 4px;
+
+@media only screen and (min-width :768px){
+    .footer{
+        background-color: rgb(71, 71, 71);
+        color: white;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        &--title{
+            margin-left: 23px;
+            font-size: 1.1em;
+            color: white;
+        }
+        &__nav ul{
+            list-style-type: none;
+            line-height: 25px;
+            font-weight: bold;
+            font-size: 0.9em;
+            margin-left: -15px;
+        }
+    }
+    
+    .fa-utensils{
+        margin-right: 10px;
+    }
+    .fa-hands-helping{
+        margin-right: 4px;
+    }
 }
+
+@media only screen and (min-width :1024px){
+    .footer{
+        background-color: rgb(71, 71, 71);
+        color: white;
+        padding-top: 0px;
+        padding-bottom: 30px;
+        text-align: center;
+        &--title{
+            margin-left: 23px;
+            margin-bottom: -20px;
+            font-size: 4em;
+            color: white;
+        }
+        &__nav ul{
+            list-style-type: none;
+            line-height: 25px;
+            font-weight: bold;
+            font-size: 1em;
+            margin-left: -15px;
+        }
+    }
+    
+    .fa-utensils{
+        margin-right: 10px;
+    }
+    .fa-hands-helping{
+        margin-right: 4px;
+    }
+}
+
+

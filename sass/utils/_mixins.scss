@@ -17,3 +17,8 @@
 @mixin gradient-heart {
     background: linear-gradient(0deg, $colour-secondary,$colour-primary);
 }
+
+@mixin center-element {
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,25 +1,64 @@
-
-@media only screen and (max-width :375px){
-
-    .header{
-        height: 60px;
-        text-align: center;
-        box-shadow: 0 0 0.5rem rgb(156, 156, 156);
-        &--logo{
-            height: 30px;
-            padding-top: 15px;
+    
+    @media only screen and (max-width :415px){
+        .header{
+            height: 60px;
+            text-align: center;
+            box-shadow: 0 0 0.5rem rgb(156, 156, 156);
+            &--logo{
+                height: 30px;
+                padding-top: 15px;
+            }
         }
+    
+        .fa-arrow-left{
+            font-size: 1.5em;
+            color: black;
+            position: relative;
+            right: 65px;
+            bottom: 5px;
+        }
+    
     }
 
-    .fa-arrow-left{
-        font-size: 1.5em;
-        color: black;
-        position: relative;
-        right: 65px;
-        bottom: 5px;
+    @media only screen and (min-width :415px){
+        .header{
+            height: 60px;
+            text-align: center;
+            box-shadow: 0 0 0.5rem rgb(156, 156, 156);
+            &--logo{
+                height: 30px;
+                padding-top: 15px;
+            }
+        }
+    
+        .fa-arrow-left{
+            font-size: 1.5em;
+            color: black;
+            position: relative;
+            right: 65px;
+            bottom: 5px;
+        }
+    
     }
-}
 
-@media only screen and (min-width :375px){
-
-}
+    @media only screen and (min-width :1023px){
+        .header{
+            height: 60px;
+            text-align: center;
+            box-shadow: 0 0 0.5rem rgb(156, 156, 156);
+            &--logo{
+                height: 45px;
+                padding-top: 15px;
+            }
+        }
+    
+        .fa-arrow-left{
+            font-size: 2.5em !important;
+            color: black;
+            position: relative;
+            right: 100px;
+            bottom: 10px;
+        }
+    
+    }
+    
