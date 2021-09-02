@@ -45,8 +45,8 @@ h1 {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #FFFFFF80;
-  -webkit-animation: load-font 0.1s 3s both;
-          animation: load-font 0.1s 3s both;
+  -webkit-animation: load-font 0.1s 3.1s both;
+          animation: load-font 0.1s 3.1s both;
 }
 
 .loader {
@@ -60,8 +60,8 @@ h1 {
   border-radius: 50% 50% 40% 30%;
   -webkit-animation: chicken 3s 0.1s;
           animation: chicken 3s 0.1s;
-  -webkit-animation-iteration-count: 2;
-          animation-iteration-count: 2;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
   opacity: 0;
 }
 
@@ -141,8 +141,8 @@ h1 {
           transform-origin: bottom right;
   -webkit-animation: cuff 3s 0.1s cubic-bezier(1, -0.07, 0.35, 0.81) alternate;
           animation: cuff 3s 0.1s cubic-bezier(1, -0.07, 0.35, 0.81) alternate;
-  -webkit-animation-iteration-count: 2;
-          animation-iteration-count: 2;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
   opacity: 0;
 }
 
@@ -163,8 +163,8 @@ h1 {
   right: 40px;
   -webkit-animation: smoke 1.8s 1.7s cubic-bezier(0.28, 0.3, 0.18, 1.03) alternate;
           animation: smoke 1.8s 1.7s cubic-bezier(0.28, 0.3, 0.18, 1.03) alternate;
-  -webkit-animation-iteration-count: 2;
-          animation-iteration-count: 2;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
   opacity: 0;
 }
 
