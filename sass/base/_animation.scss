@@ -10,134 +10,127 @@
     justify-content: center;
     background-color: #FFFFFF80;
     animation: load-font 0.1s 3.1s both;
-}
-
-.loader{
-  z-index: 3;
-  width: 60px;
-  height: 35px;
-  background-color: maroon;
-  border-bottom: 10px solid #5F3214;
-  border-right: 8px solid #5F3214;
-  border-top: 10px solid #975222;
-  border-radius: 50% 50% 40% 30%;
-  animation: chicken 3s 0.1s;
-  opacity: 0;
-}
-
-.thigh{
-  background-color: maroon;
-  border: 4px white solid;
-  border-radius: 50% 20% 50% 50%;
-  width: 35px;
-  height: 20px;
-  position: relative;
-  top: 10px;
-  left: 20px;
-}
-
-.bone{
-  border-bottom: solid 7px white;
-  border-left: solid 4px black;
-  border-right: solid 4px black;
-  background-color: white;
-  height: 10px;
-  width: 5px;
-  position: relative;
-  bottom: 13px;
-  left: 34px;
-  transform : rotate(50deg);
-}
-
-.bone-1{
-  border-top: solid 5px black;
-  border-left: solid 5px black;
-  border-right: solid 5px black;
-  border-radius: 50%;
-  height: 5px;
-  width: 4px;
-  position: relative;
-  bottom: 10px;
-  right: 0px;
-}
-
-.bone-2{
-  border-top: solid 5px black;
-  border-left: solid 5px black;
-  border-radius: 50%;
-  height: 5px;
-  width: 5px;
-  position: relative;
-  bottom: 20px;
-  right: 9px;
-}
-
-.neck{
-  background-color: maroon;
-  border-radius: 20% ;
-  border-top: 4px solid #975222;
-  width: 15px;
-  height: 10px;
-  position: relative;
-  right: 10px;
-  bottom: 10px;
-  transform : rotate(-10deg);
-}
-
-.plate{
-  height:95px;
-  width: 100px;
-  border-radius: 50% 50% 0 0;
-  background-color: #CACACA;
-  border-bottom: 4px solid grey;
-  border-right: 10px solid grey;
-  border-left: 30px solid #C4C4C4;
-  position: relative;
-  right: 40px;
-  bottom: 120px;
-  transform-origin: bottom right;
-  animation: cuff 3s 0.1s cubic-bezier(1,-0.07,.35,.81) alternate;
-  opacity: 0;
-}
-
-.cuff{
-  height:10px;
-  width: 30px;
-  border-radius: 50% 50% 30% 30%;
-  border: 6px solid #B4B4B4;
-  border-right: 7px solid grey;
-  position: relative;
-  left: 20px;
-  bottom: 10px;
-}
-
-.smoke{
-  position: relative;
-  top: 90px;
-  right: 40px;
-  animation: smoke 1.8s 1.7s cubic-bezier(.28,.3,.18,1.03) alternate;
-  opacity: 0; 
-}
-
-.smoke-m,.smoke-l,.smoke-r{
-  opacity: 0.5;
-  background-color: grey;
-  position: relative;
-  bottom: 130px;
-  left: 40px;
-  height: 10px;
-  width: 10px;
-  border-radius: 100%;
-}
-
-.smoke-l{
-  position: relative;
-  left: 0px;
-}
-.smoke-r{
-  position: relative;
-  left: 70px;
-  bottom: 140px;
+    &__loader{
+      z-index: 3;
+      width: 60px;
+      height: 35px;
+      background-color: maroon;
+      border-bottom: 10px solid #5F3214;
+      border-right: 8px solid #5F3214;
+      border-top: 10px solid #975222;
+      border-radius: 50% 50% 40% 30%;
+      animation: chicken 3s 0.1s;
+      opacity: 0;
+    }
+    &__thigh{
+      background-color: maroon;
+      border: 4px white solid;
+      border-radius: 50% 20% 50% 50%;
+      width: 35px;
+      height: 20px;
+      position: relative;
+      top: 10px;
+      left: 20px;
+    }
+    &__bone{
+      border-bottom: solid 7px white;
+      border-left: solid 4px black;
+      border-right: solid 4px black;
+      background-color: white;
+      height: 10px;
+      width: 5px;
+      position: relative;
+      bottom: 13px;
+      left: 34px;
+      transform : rotate(50deg);
+    }
+    
+    &__boneL{
+      border-top: solid 5px black;
+      border-left: solid 5px black;
+      border-right: solid 5px black;
+      border-radius: 50%;
+      height: 5px;
+      width: 4px;
+      position: relative;
+      bottom: 10px;
+      right: 0px;
+    }
+    
+    &__boneR{
+      border-top: solid 5px black;
+      border-left: solid 5px black;
+      border-radius: 50%;
+      height: 5px;
+      width: 5px;
+      position: relative;
+      bottom: 20px;
+      right: 9px;
+    }
+    &__neck{
+      background-color: maroon;
+      border-radius: 20% ;
+      border-top: 4px solid #975222;
+      width: 15px;
+      height: 10px;
+      position: relative;
+      right: 10px;
+      bottom: 10px;
+      transform : rotate(-10deg);
+    }
+    
+    &__plate{
+      height:95px;
+      width: 100px;
+      border-radius: 50% 50% 0 0;
+      background-color: #CACACA;
+      border-bottom: 4px solid grey;
+      border-right: 10px solid grey;
+      border-left: 30px solid #C4C4C4;
+      position: relative;
+      right: 40px;
+      bottom: 120px;
+      transform-origin: bottom right;
+      animation: cuff 3s 0.1s cubic-bezier(1,-0.07,.35,.81) alternate;
+      opacity: 0;
+    }
+    
+    &__cuff{
+      height:10px;
+      width: 30px;
+      border-radius: 50% 50% 30% 30%;
+      border: 6px solid #B4B4B4;
+      border-right: 7px solid grey;
+      position: relative;
+      left: 20px;
+      bottom: 10px;
+    }
+    &__smoke{
+      position: relative;
+      top: 90px;
+      right: 40px;
+      animation: smoke 1.8s 1.7s cubic-bezier(.28,.3,.18,1.03) alternate;
+      opacity: 0; 
+    }
+    &__smokeMid,&__smokeLeft,&__smokeRight{
+      opacity: 0.5;
+      background-color: grey;
+      position: relative;
+      bottom: 130px;
+      left: 40px;
+      height: 10px;
+      width: 10px;
+      border-radius: 100%;
+    }
+    &__smokeLeft{
+      position: relative;
+      left: 0px;
+    }
+    &__smokeRight{
+      position: relative;
+      left: 70px;
+      bottom: 140px;
+    }
 }
 .smoke1{
   opacity: 1;
@@ -217,8 +210,7 @@
 .an4{
     animation: animation-menu 1s 600ms forwards;
 }
-
-.menu__choice--element{
+.menu__element{
     opacity: 0;
 }
 
