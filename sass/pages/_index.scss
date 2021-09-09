@@ -726,11 +726,12 @@
        position: relative;
        bottom: 0px;
        left: -45px;
+       display: none;
    }
    .fa-store,.fa-list-ul{
+       display: none;
        color: gray;
        font-size: 2em;
-       
        position: relative;
        bottom: -0px;
        left: -30px;
