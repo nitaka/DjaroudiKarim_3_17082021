@@ -1,300 +1,39 @@
 
-@media only screen and (min-width :320px){
-
-    /* section info index */
-   .info{
-       background-color: $background-intro;
-       height: 50px;
-       width: 100%;
-       text-align: center;
-       line-height: 50px;
-       position: relative;
-       bottom: 13px;
-       .fa-map-marker-alt{
-           position: relative;
-           right: 10px;
-           color: rgb(56, 56, 56);
-       }
-   }
-
-   .text__main{
-       font-size: 1.2em;
-       text-align: center;
-       @include background-grey;
-       padding-top: 25px;
-       padding-bottom: 50px;
-       position: relative;
-       bottom: 13px;
-
-   }
-    /* section info index fin */
-
-   /* section function index */
-   .function h2{
-       margin-bottom: 0px;
-   }
-
-   .function{
-   &__group{
-       display: flex;
-       display: flex;
-       flex-direction: column;
-       width: 100%;
-       padding-top: 20px;
-       padding-bottom: 40px;
-       &__nb{
-           width: $size-round;
-           height: $size-round;
-           background-color: $colour-primary;
-           color: white;
-           font-weight: bold;
-           font-size: 0.9em;
-           text-align: center;
-           line-height: 23px;
-           border-radius: 20px;
-           padding: 2px;
-           position: relative;
-           top: 30px;
-           left: 25px;
-       }
-   }
-}
-   
-       
-       
-      
-
-
-   .fa-mobile-alt{
-       color: gray;
-       width: 10px;
-       font-size: 1.4em;
-       position: relative;
-       bottom: 48px;
-       left: 70px;
-   }
-
-   .fa-store,.fa-list-ul{
-       color: gray;
-       width: 10px;
-       font-size: 1.1em;
-       position: relative;
-       bottom: 43px;
-       left: 68px;
-   } 
-   /* section function index fin*/
-
-   /* section restaurant index */
-   .restaurant{
-       padding-top: 30px;
-       padding-bottom: 45px;
-       background-color: $background-intro;
-       width: 100%;
-       &__element{
-           @include shadow;
-           background-color: #ffffff;
-           border-radius: 20px;
-           height: 220px;
-           width: 90%;
-           margin-left: auto;
-           margin-right: auto;
-       }
-       &__txt{
-        font-size: 1em;
-        line-height: 8px;
-        margin-top: 15px;
-        margin-left: 10px;
-        }
-        &__img{
-            width: 100%;
-            height: 70%;
-            object-fit: cover;
-            border-radius: 20px 20px 0 0;
-        }
-   }
-
-   .new{
-       display: inline;
-       color: #1b6150;
-       background-color: #99e2d0;
-       font-weight: 900;
-       font-size: 0.8em;
-       padding: 5px 10px 5px 10px;
-       border-radius: 2px;
-       position: relative;
-       left: 245px;
-       bottom: 225px;
-   }
-   /* section restaurant index fin*/
+/* section info index */
+.info{
+    background-color: $background-intro;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+    bottom: 13px;
+    .fa-map-marker-alt{
+        position: relative;
+        right: 10px;
+        color: rgb(56, 56, 56);
+    }
 }
 
-@media only screen and (min-width :375px){
+.text__main{
+    font-size: 1.2em;
+    text-align: center;
+    @include background-grey;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    position: relative;
+    bottom: 13px;
 
-     /* section info index */
-    .info{
-        background-color: $background-intro;
-        height: 50px;
-        width: 100%;
-        text-align: center;
-        line-height: 50px;
-        position: relative;
-        bottom: 13px;
-        .fa-map-marker-alt{
-            position: relative;
-            right: 10px;
-            color: rgb(56, 56, 56);
-        }
-    }
+}
+/* section info index fin */
 
-    .text__main{
-        font-size: 1.2em;
-        text-align: center;
-        @include background-grey;
-        padding-top: 25px;
-        padding-bottom: 50px;
-        position: relative;
-        bottom: 13px;
+/* section function index */
+.function h2{
+    margin-bottom: 0px;
+}
 
-    }
-     /* section info index fin */
-
-    /* section function index */
-    .function h2{
-        margin-bottom: 0px;
-    }
-
-    .function{
+.function{
     &__group{
-        display: flex;
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        padding-top: 20px;
-        padding-bottom: 40px;
-    }
-    &__nb{
-        width: $size-round;
-        height: $size-round;
-        background-color: $colour-primary;
-        color: white;
-        font-weight: bold;
-        font-size: 0.9em;
-        text-align: center;
-        line-height: 23px;
-        border-radius: 20px;
-        padding: 2px;
-        position: relative;
-        top: 30px;
-        left: 25px;
-    }
-}
-    
-        
-        
-       
-
-
-    .fa-mobile-alt{
-        color: gray;
-        width: 10px;
-        font-size: 1.4em;
-        position: relative;
-        bottom: 48px;
-        left: 70px;
-    }
-
-    .fa-store,.fa-list-ul{
-        color: gray;
-        width: 10px;
-        font-size: 1.1em;
-        position: relative;
-        bottom: 43px;
-        left: 68px;
-    } 
-    /* section function index fin*/
-
-    /* section restaurant index */
-    .restaurant{
-        padding-top: 30px;
-        padding-bottom: 45px;
-        background-color: $background-intro;
-        width: 100%;
-        &__element{
-            @include shadow;
-            background-color: #ffffff;
-            border-radius: 20px;
-            height: 220px;
-            width: 90%;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        &__txt{
-            font-size: 1em;
-            line-height: 8px;
-            margin-top: 15px;
-            margin-left: 10px;
-        }
-        &__img{
-            width: 100%;
-            height: 70%;
-            object-fit: cover;
-            border-radius: 20px 20px 0 0;
-        }
-    }
-
-    .new{
-        display: inline;
-        color: #1b6150;
-        background-color: #99e2d0;
-        font-weight: 900;
-        font-size: 0.8em;
-        padding: 5px 10px 5px 10px;
-        border-radius: 2px;
-        position: relative;
-        left: 245px;
-        bottom: 225px;
-    }
-    /* section restaurant index fin*/
-}
-
-@media only screen and (min-width :414px){
-
-    /* section info index */
-   .info{
-       background-color: $background-intro;
-       height: 50px;
-       width: 100%;
-       text-align: center;
-       line-height: 50px;
-       position: relative;
-       bottom: 13px;
-       .fa-map-marker-alt{
-           position: relative;
-           right: 10px;
-           color: rgb(56, 56, 56);
-       }
-   }
-
-   .text__main{
-       font-size: 1.2em;
-       text-align: center;
-       @include background-grey;
-       padding-top: 25px;
-       padding-bottom: 50px;
-       position: relative;
-       bottom: 13px;
-
-   }
-    /* section info index fin */
-
-   /* section function index */
-   .function h2{
-       margin-bottom: 0px;
-   }
-
-   .function{
-    &__group{
-        display: flex;
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -318,144 +57,92 @@
     }
 }
 
-   .fa-mobile-alt{
-       color: gray;
-       width: 10px;
-       font-size: 1.4em;
-       position: relative;
-       bottom: 48px;
-       left: 70px;
-   }
-
-   .fa-store,.fa-list-ul{
-       color: gray;
-       width: 10px;
-       font-size: 1.1em;
-       position: relative;
-       bottom: 43px;
-       left: 68px;
-   } 
-   /* section function index fin*/
-
-   /* section restaurant index */
-   .restaurant{
-       padding-top: 30px;
-       padding-bottom: 45px;
-       background-color: $background-intro;
-       width: 100%;
-       &__element{
-           @include shadow;
-           background-color: #ffffff;
-           border-radius: 20px;
-           height: 220px;
-           width: 90%;
-           margin-left: auto;
-           margin-right: auto;
-       }
-        &__txt{
-        font-size: 1em;
-        line-height: 8px;
-        margin-top: 15px;
-        margin-left: 10px;
-        }
-        &__img{
-            width: 100%;
-            height: 70%;
-            object-fit: cover;
-            border-radius: 20px 20px 0 0;
-        }
-   }
-
-   .new{
-       display: inline;
-       color: #1b6150;
-       background-color: #99e2d0;
-       font-weight: 900;
-       font-size: 0.8em;
-       padding: 5px 10px 5px 10px;
-       border-radius: 2px;
-       position: relative;
-       left: 0px;
-       bottom: 225px;
-   }
-   /* section restaurant index fin*/
+.fa-mobile-alt{
+    color: gray;
+    width: 10px;
+    font-size: 1.4em;
+    position: relative;
+    bottom: 48px;
+    left: 70px;
 }
+
+.fa-store,.fa-list-ul{
+    color: gray;
+    width: 10px;
+    font-size: 1.1em;
+    position: relative;
+    bottom: 43px;
+    left: 68px;
+} 
+/* section function index fin*/
+
+/* section restaurant index */
+.restaurant{
+    padding-top: 30px;
+    padding-bottom: 45px;
+    background-color: $background-intro;
+    width: 100%;
+    &__element{
+        @include shadow;
+        background-color: #ffffff;
+        border-radius: 20px;
+        height: 220px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    &__txt{
+    font-size: 1em;
+    line-height: 8px;
+    margin-top: 15px;
+    margin-left: 10px;
+    }
+    &__img{
+        width: 100%;
+        height: 70%;
+        object-fit: cover;
+        border-radius: 20px 20px 0 0;
+    }
+}
+
+.new{
+    display: inline;
+    color: #1b6150;
+    background-color: #99e2d0;
+    font-weight: 900;
+    font-size: 0.8em;
+    padding: 5px 10px 5px 10px;
+    border-radius: 2px;
+    position: relative;
+    left: 245px;
+    bottom: 225px;
+}
+/* section restaurant index fin*/
 
 @media only screen and (min-width :768px){
 
-    /* section info index */
-    .info{
-       background-color: $background-intro;
-       height: 50px;
-       width: 100%;
-       text-align: center;
-       line-height: 50px;
-       position: relative;
-       bottom: 13px;
-       .fa-map-marker-alt{
-           position: relative;
-           right: 10px;
-           color: rgb(56, 56, 56);
-       }
-   }
-
-   .text__main{
-       font-size: 1.2em;
-       text-align: center;
-       @include background-grey;
-       padding-top: 25px;
-       padding-bottom: 50px;
-       position: relative;
-       bottom: 13px;
-
-   }
-    /* section info index fin */
-
    /* section function index */
-   .function h2{
-       margin-bottom: 0px;
-   }
 
    .function{
-    &__group{
-        display: flex;
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        padding-top: 20px;
-        padding-bottom: 40px;
+        &__nb{
+            width: $size-round-tab;
+            height: $size-round-tab;
+            font-size: 2em;
+            line-height: 40px;
+            position: relative;
+            top: 60px;
+            left: 60px;
+        }
     }
-    &__nb{
-        width: $size-round-tab;
-        height: $size-round-tab;
-        background-color: $colour-primary;
-        color: white;
-        font-weight: bold;
-        font-size: 2em;
-        text-align: center;
-        line-height: 40px;
-        border-radius: 20px;
-        padding: 2px;
-        position: relative;
-        top: 60px;
-        left: 60px;
-    }
-}
 
    .fa-mobile-alt{
-       color: gray;
-       width: 10px;
        font-size: 2.1em;
-       position: relative;
        bottom: 65px;
        left: 160px;
    }
 
    .fa-store,.fa-list-ul{
-       color: gray;
-       width: 10px;
        font-size: 2em;
-       position: relative;
        bottom: 65px;
        left: 155px;
    } 
@@ -463,86 +150,26 @@
 
    /* section restaurant index */
    .restaurant{
-       padding-top: 30px;
-       padding-bottom: 45px;
-       background-color: $background-intro;
-       width: 100%;
        &__fig{
            display: flex;
            flex-wrap: wrap;
            justify-content: space-evenly;
-
        }
        &__element{
-           @include shadow;
-           background-color: #ffffff;
-           border-radius: 20px;
            height: 270px;
            min-width: 270px;
            width: 40%;
        }
-        &__txt{
-        font-size: 1em;
-        line-height: 8px;
-        margin-top: 15px;
-        margin-left: 10px;
-        }
-        &__img{
-            width: 100%;
-            height: 70%;
-            object-fit: cover;
-            border-radius: 20px 20px 0 0;
-        }
    }
 
    .new{
-       display: inline;
-       color: #1b6150;
-       background-color: #99e2d0;
-       font-weight: 900;
-       font-size: 0.8em;
-       padding: 5px 10px 5px 10px;
-       border-radius: 2px;
-       position: relative;
        left: 210px;
        bottom: 255px;
-   }
-
-   .restaurant h2{
-       flex-wrap: wrap;
    }
    /* section restaurant index fin*/
 }
 
 @media only screen and (min-width :800px) and (max-width : 1024px){
-
-    /* section info index */
-    .info{
-       background-color: $background-intro;
-       height: 50px;
-       width: 100%;
-       text-align: center;
-       line-height: 50px;
-       position: relative;
-       bottom: 13px;
-       .fa-map-marker-alt{
-           position: relative;
-           right: 10px;
-           color: rgb(56, 56, 56);
-       }
-   }
-
-   .text__main{
-       font-size: 1.2em;
-       text-align: center;
-       @include background-grey;
-       padding-top: 25px;
-       padding-bottom: 50px;
-       position: relative;
-       bottom: 13px;
-
-   }
-    /* section info index fin */
 
    /* section function index */
    .function h2{
@@ -550,50 +177,31 @@
        text-align: center;
        margin-bottom: 40px;
        font-size: 2em;
-
    }
 
    .function{
         &__group{
-            display: flex;
             flex-direction: row;
-            width: 100%;
-            padding-top: 20px;
-            padding-bottom: 40px;
         }
         &__nb{
             width: 10%;
             height: 5%;
-            background-color: $colour-primary;
-            color: white;
-            font-weight: bold;
             font-size: 2em;
-            text-align: center;
             line-height: 40px;
-            border-radius: 20px;
-            padding: 2px;
             display: block;
-            position: relative;
             top: 17px;
             left: 10px;
         }
     }
 
-
    .fa-mobile-alt{
-       color: gray;
-       width: 10px;
        font-size: 2em;
-       position: relative;
        bottom: 45px;
        left: -100px;
    }
 
    .fa-store,.fa-list-ul{
-       color: gray;
-       width: 10px;
        font-size: 2em;
-       position: relative;
        bottom: 45px;
        left: -120px;
    } 
@@ -601,49 +209,24 @@
 
    /* section restaurant index */
    .restaurant{
-       padding-top: 30px;
-       padding-bottom: 45px;
-       background-color: $background-intro;
-       width: 100%;
        &__fig{
            display: flex;
            flex-wrap: wrap;
            justify-content: space-evenly;
-
        }
        &__element{
-           @include shadow;
-           background-color: #ffffff;
-           border-radius: 20px;
            height: 270px;
            min-width: 270px;
            max-width: 370px;
            width: 40%;
        }
-        &__txt{
-        font-size: 1em;
-        line-height: 8px;
-        margin-top: 15px;
-        margin-left: 10px;
-        }
-        &__img{
-            width: 100%;
-            height: 70%;
-            object-fit: cover;
-            border-radius: 20px 20px 0 0;
-        }
    }
 
    .new{
        display: inline-block;
-       color: #1b6150;
-       background-color: #99e2d0;
-       font-weight: 900;
        font-size: 1em;
        height: 15px;
        padding: 10px 10px 0px 10px;
-       border-radius: 2px;
-       position: relative;
        left: -90px;
        bottom: 250px;
    }
@@ -655,141 +238,66 @@
 }
 
 @media only screen and (min-width :1024px){
-
-    /* section info index */
-    .info{
-       background-color: $background-intro;
-       height: 50px;
-       width: 100%;
-       text-align: center;
-       line-height: 50px;
-       position: relative;
-       bottom: 13px;
-       .fa-map-marker-alt{
-           position: relative;
-           right: 10px;
-           color: rgb(56, 56, 56);
-       }
-   }
-
-   .text__main{
-       font-size: 1.2em;
-       text-align: center;
-       @include background-grey;
-       padding-top: 25px;
-       padding-bottom: 50px;
-       position: relative;
-       bottom: 13px;
-
-   }
-    /* section info index fin */
-
+    
    /* section function index */
    .function h2{
-       margin-bottom: 0px;
        text-align: center;
        margin-bottom: 40px;
        font-size: 2em;
+    }
 
-   }
    .function{
         &__group{
-            display: flex;
             flex-direction: row;
-            width: 100%;
-            padding-top: 20px;
-            padding-bottom: 40px;
-            
         }
         &__nb{
             width: 10%;
             height: 5%;
-            background-color: $colour-primary;
-            color: white;
-            font-weight: bold;
             font-size: 2em;
-            text-align: center;
             line-height: 40px;
             border-radius: 20px;
-            padding: 2px;
             display: block;
-            position: relative;
             top: 17px;
             left: 10px;
         }
         
     }
+
    .fa-mobile-alt{
-       color: gray;
-       font-size: 2em;
-       padding-left: 25px;
-       position: relative;
-       bottom: 0px;
-       left: -45px;
        display: none;
-   }
+    }
+
    .fa-store,.fa-list-ul{
        display: none;
-       color: gray;
-       font-size: 2em;
-       position: relative;
-       bottom: -0px;
-       left: -30px;
-   } 
+    } 
    /* section function index fin*/
 
    /* section restaurant index */
    .restaurant{
-       padding-top: 30px;
-       padding-bottom: 45px;
-       background-color: $background-intro;
-       width: 100%;
        &__fig{
            display: flex;
            flex-wrap: wrap;
            justify-content: space-evenly;
-
        }
        &__element{
-           @include shadow;
-           background-color: #ffffff;
-           border-radius: 20px;
            height: 270px;
            min-width: 270px;
            max-width: 370px;
            width: 40%;
-           &__txt{
-            font-size: 1em;
-            line-height: 8px;
-            margin-top: 15px;
-            margin-left: 10px;
-            }
-            &__img{
-                width: 100%;
-                height: 70%;
-                object-fit: cover;
-                border-radius: 20px 20px 0 0;
-            }
        }
-       
-   }
+    }
 
    .new{
        display: inline-block;
-       color: #1b6150;
-       background-color: #99e2d0;
-       font-weight: 900;
        font-size: 1em;
        height: 15px;
        padding: 10px 10px 0px 10px;
-       border-radius: 2px;
-       position: relative;
        left: -90px;
        bottom: 250px;
-   }
+    }
 
    .restaurant h2{
        flex-wrap: wrap;
-   }
+    }
    /* section restaurant index fin*/
 }
